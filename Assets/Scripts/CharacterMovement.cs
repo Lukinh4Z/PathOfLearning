@@ -12,7 +12,12 @@ public class CharacterMovement : MonoBehaviour
 
     public void SetDestination(Vector3 destinatioPosition)
     {
+        agent.isStopped = false;
         agent.SetDestination(destinatioPosition);
     }
 
+    public void Stop()
+    {
+        agent.isStopped = true;
+    }
 }

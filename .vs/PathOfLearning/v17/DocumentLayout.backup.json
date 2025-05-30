@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\pathoflearning\\assets\\scripts\\interactinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\pathoflearning\\assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\assets\\scripts\\mouseinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mouseinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\assets\\scripts\\attackhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attackhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\assets\\scripts\\charactermovementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermovementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\pathoflearning\\assets\\scripts\\attackinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attackinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\pathoflearning\\assets\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\assets\\scripts\\mouseinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mouseinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\assets\\scripts\\animate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\assets\\scripts\\interactinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,40 +43,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InteractInput.cs",
-              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\InteractInput.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractInput.cs",
-              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\InteractInput.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAswHYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:18:32.07Z",
+              "WhenOpened": "2025-05-30T19:05:56.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "InteractableObject.cs",
-              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\InteractableObject.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractableObject.cs",
-              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\InteractableObject.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractableObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Title": "CharacterMovement.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\CharacterMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMovement.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\CharacterMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:16:03.961Z",
+              "WhenOpened": "2025-05-30T18:55:24.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InteractInput.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\InteractInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractInput.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\InteractInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractInput.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA0wBQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:19:13.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AttackInput.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\AttackInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackInput.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\AttackInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:18:42.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Animate.cs",
-              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\Animate.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Animate.cs",
-              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\Animate.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Animate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AttackHandler.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\AttackHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackHandler.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\AttackHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackHandler.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwCkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:58:14.286Z"
+              "WhenOpened": "2025-05-30T18:18:35.446Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,36 +111,22 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMovementInput.cs",
               "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\CharacterMovementInput.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharacterMovementInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:43:47.042Z",
+              "WhenOpened": "2025-05-30T19:00:51.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CharacterMovement.cs",
-              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\CharacterMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMovement.cs",
-              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\CharacterMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CharacterMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:41:44.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MouseInput.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\MouseInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MouseInput.cs",
               "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\MouseInput.cs",
               "RelativeToolTip": "Assets\\Scripts\\MouseInput.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAgwEoAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T14:27:12.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T14:27:12.677Z"
             }
           ]
         }

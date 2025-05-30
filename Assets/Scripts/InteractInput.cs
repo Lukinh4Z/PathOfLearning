@@ -7,11 +7,14 @@ public class InteractInput : MonoBehaviour
     [SerializeField]
     TMPro.TextMeshProUGUI textOnScreen;
 
+    [HideInInspector]
+    public InteractableObject hoveringObject;
+
     private void Awake()
     {
         mouseInput = Camera.main.GetComponent<MouseInput>();
 
-        mouseInput.OnLeftClickWithGameObject += OnInteractionPerformed;
+        mouseInput.OnInteractWithGameObject += OnInteractionPerformed;
         mouseInput.OnHoverInteractable += IsHoveringInteractable;
     }
 
@@ -30,11 +33,13 @@ public class InteractInput : MonoBehaviour
         {
             textOnScreen.text = interactableObject.gameObject.name;
             textOnScreen.gameObject.SetActive(true);
+            hoveringObject = interactableObject;
         }
         else
         {
             textOnScreen.text = "";
             textOnScreen.gameObject.SetActive(false);
+            hoveringObject = null;
         }
 
     }

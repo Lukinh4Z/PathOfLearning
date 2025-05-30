@@ -10,12 +10,14 @@ public class CharacterMovementInput : MonoBehaviour
         characterMovement = GetComponent<CharacterMovement>();
         //mouseInput = Camera.main.GetComponent<MouseInput>();
 
-        mouseInput.OnLeftClickWithGameObject += OnInteractionClick;
+        mouseInput.OnInteractWithGameObject += OnInteractionClick;
     }
 
-    private void OnInteractionClick(Vector3 clickPosition, GameObject _)
+    private void OnInteractionClick(Vector3 clickPosition, GameObject gameObject)
     {
-        Debug.Log($"clicked on {clickPosition}");
-        characterMovement.SetDestination(clickPosition);
+        //Debug.Log($"clicked on {clickPosition}");
+
+        InteractableObject interactableObject = gameObject.GetComponent<InteractableObject>();
+        if(interactableObject == null) characterMovement.SetDestination(clickPosition);
     }
 }
