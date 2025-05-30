@@ -2,14 +2,26 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+// Criamos um delegate customizado para passar mais informações no evento de clique
+// Este delegate receberá a posição 3D do clique e o GameObject que foi atingido.
+public delegate void OnLeftClickWithHitInfo(Vector3 clickPosition, GameObject hitGameObject);
+// OU para simplicidade, se você não quer criar um novo delegate:
+// public event Action<Vector3, GameObject> OnLeftClickWithHitInfo;
+
+public delegate void OnHoverInteractable(InteractableObject interactableObject);
+
 public class MouseInput : MonoBehaviour
 {
     [HideInInspector]
     public Vector3 mouseInputPosition; // Posição 3D no mundo
-    public Action<Vector3> OnInteract;
 
     PlayerInput_Actions _actions;
     Camera _mainCamera;
+
+    // EVENTO 2: Novo evento para o clique esquerdo, passando a posição e o GameObject atingido
+    // public event Action<Vector3, GameObject> OnLeftClickWithGameObject; // Usando Action<T1, T2>
+    public event OnLeftClickWithHitInfo OnLeftClickWithGameObject; // Usando delegate customizado
+    public event OnHoverInteractable OnHoverInteractable;
 
     private void Awake()
     {
@@ -58,7 +70,9 @@ public class MouseInput : MonoBehaviour
         if (Physics.Raycast(ray, out hit, float.MaxValue))
         {
             mouseInputPosition = hit.point;
-            //Debug.Log($"Mouse World Position: {mouseInputPosition}");
+
+            InteractableObject interactable = hit.transform.GetComponent<InteractableObject>();
+            OnHoverInteractable?.Invoke(interactable);
         }
         else
         {
@@ -71,8 +85,31 @@ public class MouseInput : MonoBehaviour
 
     public void OnInteractPerformed(InputAction.CallbackContext context)
     {
-        OnInteract?.Invoke(mouseInputPosition);
-        Debug.Log($"Mouse clicked on: {mouseInputPosition}");
+        // 1.Pega a posição 2D do mouse no momento exato do clique
+        Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
+
+        // 2. Cria um raio a partir da câmera através da posição do clique
+        Ray ray = Camera.main.ScreenPointToRay(mouseScreenPosition);
+
+        RaycastHit hit; // Variável para armazenar as informações do acerto
+
+        // 3. Executa o Raycast
+        if (Physics.Raycast(ray, out hit, float.MaxValue))
+        {
+            // O clique ATINGIU um GameObject!
+            Debug.Log($"Left Click detected on: {hit.collider.gameObject.name} at World Position: {hit.point}");
+
+            // 4. Dispara o evento, passando a posição do clique e o GameObject atingido
+            OnLeftClickWithGameObject?.Invoke(hit.point, hit.collider.gameObject);
+        }
+        else
+        {
+            // O clique NÃO atingiu nenhum GameObject com colisor
+            Debug.Log("Left Click in empty space (no collider hit).");
+            // Se você quiser um evento para cliques no vazio:
+            // public event Action<Vector3> OnLeftClickEmptySpace;
+            // OnLeftClickEmptySpace?.Invoke(mouseScreenPosition); // Ou a mouseWorldPosition atualizada, se preferir
+        }
     }
 
     void Update()
