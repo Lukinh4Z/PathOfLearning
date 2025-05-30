@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\assets\\scripts\\mouseinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\pathoflearning\\assets\\scripts\\animate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\pathoflearning\\assets\\scripts\\mouseinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mouseinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\pathoflearning\\assets\\scripts\\charactermovementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\assets\\scripts\\charactermovementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermovementinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|d:\\lucas\\estudos\\dev\\unity\\pathoflearning\\assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09FCFB02-C615-F789-1D52-A4398149D3D9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Animate.cs",
+              "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\Animate.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Animate.cs",
+              "ToolTip": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\Animate.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Animate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T16:58:14.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CharacterMovementInput.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\CharacterMovementInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMovementInput.cs",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CharacterMovementInput.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:43:47.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T15:43:47.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CharacterMovement.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\CharacterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMovement.cs",
@@ -47,12 +63,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CharacterMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:41:44.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T15:41:44.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MouseInput.cs",
               "DocumentMoniker": "D:\\Lucas\\Estudos\\Dev\\Unity\\PathOfLearning\\Assets\\Scripts\\MouseInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MouseInput.cs",

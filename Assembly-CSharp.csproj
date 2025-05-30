@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\CharacterMovementInput.cs" />
     <Compile Include="Assets\Scripts\MouseInput.cs" />
     <Compile Include="Assets\Scripts\PlayerInput_Actions.cs" />
+    <Compile Include="Assets\Scripts\Animate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GameAssetsGreg\v3.txt" />
