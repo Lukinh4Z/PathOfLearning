@@ -6,9 +6,12 @@ public class InteractInput : MonoBehaviour
 
     [SerializeField]
     TMPro.TextMeshProUGUI textOnScreen;
+    [SerializeField]
+    UIPoolBar uiLifePoolBar;
 
     [HideInInspector]
     public InteractableObject hoveringObject;
+    Character hoveringCharacter;
 
     private void Awake()
     {
@@ -34,13 +37,28 @@ public class InteractInput : MonoBehaviour
             textOnScreen.text = interactableObject.gameObject.name;
             textOnScreen.gameObject.SetActive(true);
             hoveringObject = interactableObject;
+            hoveringCharacter = interactableObject.gameObject.GetComponent<Character>();
         }
         else
         {
             textOnScreen.text = "";
             textOnScreen.gameObject.SetActive(false);
             hoveringObject = null;
+            hoveringCharacter = null;
         }
 
+        UpdateHPBar();
+    }
+
+    private void UpdateHPBar()
+    {
+        if(hoveringCharacter != null)
+        {
+            uiLifePoolBar.Show(hoveringCharacter.lifePool);
+        }
+        else
+        {
+            uiLifePoolBar.Clear();
+        }
     }
 }

@@ -64,7 +64,11 @@
     <Compile Include="Assets\Scripts\InteractInput.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\AttackHandler.cs" />
+    <Compile Include="Assets\Scripts\CharacterUI.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPoolBar.cs" />
+    <Compile Include="Assets\Scripts\AIEnemy.cs" />
     <Compile Include="Assets\Scripts\CharacterMovement.cs" />
+    <Compile Include="Assets\Scripts\UI\UIPanelManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\InteractableObject.cs" />
     <Compile Include="Assets\Scripts\CharacterMovementInput.cs" />

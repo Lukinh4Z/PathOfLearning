@@ -1,48 +1,59 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public enum Statistic
 {
     Life,
     Damage,
-    Armor
+    Armor,
+    AttackSpeed
 }
 
 [Serializable]
 public class StatsValue
 {
     public Statistic statType;
-    public int value;
+    public bool typeFloat;
+    public float float_value;
+    public int int_value;
 
     public StatsValue(Statistic statType, int value = 0)
     {
         this.statType = statType;
-        this.value = value;
+        this.int_value = value;
+    }
+
+    public StatsValue(Statistic statType, float float_value = 0f)
+    {
+        this.statType = statType;
+        this.typeFloat = true;
+        this.float_value = float_value;
     }
 }
 
 [Serializable]
 public class StatsGroup
 {
-    public List<StatsValue> stats;
+    public List<StatsValue> statsValues;
 
     public StatsGroup()
     {
-        stats = new List<StatsValue>();
-        Init();
+        statsValues = new List<StatsValue>();
     }
 
     public void Init()
     {
-        stats.Add(new StatsValue(Statistic.Life, 100));
-        stats.Add(new StatsValue(Statistic.Damage, 25));
-        stats.Add(new StatsValue(Statistic.Armor, 5));
+        statsValues.Add(new StatsValue(Statistic.Life, 100));
+        statsValues.Add(new StatsValue(Statistic.Damage, 25));
+        statsValues.Add(new StatsValue(Statistic.Armor, 5));
+        statsValues.Add(new StatsValue(Statistic.AttackSpeed, 1f));
     }
 
     internal StatsValue Get(Statistic statistic)
     {
-        return stats[(int)statistic];
+        return statsValues[(int)statistic];
     }
 }
 
@@ -74,7 +85,6 @@ public class AtributeGroup
     public AtributeGroup()
     {
         atributeValues = new List<AtributeValue>();
-        Init();
     }
 
     public void Init()
@@ -94,7 +104,7 @@ public class ValuePool
     public ValuePool(StatsValue maxValue)
     {
         this.maxValue = maxValue;
-        this.currentValue = maxValue.value;
+        this.currentValue = maxValue.int_value;
     }
 }
 
@@ -102,14 +112,16 @@ public class Character : MonoBehaviour
 {
     [SerializeField] AtributeGroup attributes;
     [SerializeField] StatsGroup stats;
-    [SerializeField] ValuePool lifePool;
+    public ValuePool lifePool;
 
     private void Start()
     {
         attributes = new AtributeGroup();
         attributes.Init();
+
         stats = new StatsGroup();
         stats.Init();
+        
         lifePool = new ValuePool(TakeStats(Statistic.Life));
     }
 
@@ -131,7 +143,7 @@ public class Character : MonoBehaviour
 
     private int ApplyDefences(int damage)
     {
-        damage -= TakeStats(Statistic.Armor).value;
+        damage -= TakeStats(Statistic.Armor).int_value;
         if(damage < 0)
         {
             damage = 0;

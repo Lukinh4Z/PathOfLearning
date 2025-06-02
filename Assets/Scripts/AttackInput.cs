@@ -2,9 +2,6 @@ using UnityEngine;
 
 public class AttackInput : MonoBehaviour
 {
-    [SerializeField]
-    InteractInput _interactInput;
-
     AttackHandler _attackHandler;
 
     private void Awake()
@@ -17,7 +14,7 @@ public class AttackInput : MonoBehaviour
 
     private void AttackTarget(Vector3 _, GameObject target)
     {
-        InteractableObject interactableObject = target.GetComponent<InteractableObject>();
-        if(interactableObject != null) _attackHandler.Attack(interactableObject);
+        Character targetCharacter = target.GetComponent<Character>();
+        if(targetCharacter != null) _attackHandler.Attack(targetCharacter);
     }
 }
