@@ -17,9 +17,10 @@ GameObject:
   - component: {fileID: 3523343056069640570}
   - component: {fileID: 2454317237433272009}
   - component: {fileID: 343499670966345682}
+  - component: {fileID: 4170000425561294990}
   m_Layer: 0
   m_Name: PlayerCharacter
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,6 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e5ce5d9e8abc2b479fda0e633a2b715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  defaultMoveSpeed: 3.5
 --- !u!114 &1594784211443244958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,6 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   mouseInput: {fileID: 0}
+  interactRange: 2
 --- !u!114 &2015045783038113926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,7 +151,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d0008da930a2a45bf488200467e266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttackInput
-  _interactInput: {fileID: 0}
 --- !u!114 &343499670966345682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,13 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   attributes:
-    atributeValues:
-    - atributeType: 0
-      value: 0
-    - atributeType: 1
-      value: 0
-    - atributeType: 2
-      value: 0
+    atributeValues: []
   stats:
     statsValues: []
   lifePool:
@@ -178,6 +174,19 @@ MonoBehaviour:
       float_value: 0
       int_value: 0
     currentValue: 0
+--- !u!114 &4170000425561294990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6102652367214018550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec7e2de4f0627b42a44905889c1fc3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  poolBar: {fileID: 0}
 --- !u!1001 &9125802577620651131
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2,8 +2,12 @@ using UnityEngine;
 
 public class InteractableObject : MonoBehaviour
 {
+    [SerializeField] string sceneName;
     public void Interact()
     {
-        Debug.Log($"Interaction with {gameObject}");
+        if (sceneName != "")
+        {
+            GameSceneManager.instance.StartTransition(sceneName);
+        }
     }
 }

@@ -61,21 +61,24 @@
     <Analyzer Include="C:\Program Files\Unity\6000.2.0b2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\InteractInput.cs" />
-    <Compile Include="Assets\Scripts\Character.cs" />
-    <Compile Include="Assets\Scripts\AttackHandler.cs" />
-    <Compile Include="Assets\Scripts\CharacterUI.cs" />
+    <Compile Include="Assets\Scripts\Character\InteractInput.cs" />
+    <Compile Include="Assets\Scripts\Character\Animate.cs" />
+    <Compile Include="Assets\Scripts\Character\CharacterMovement.cs" />
+    <Compile Include="Assets\Scripts\Character\AttackInput.cs" />
     <Compile Include="Assets\Scripts\UI\UIPoolBar.cs" />
-    <Compile Include="Assets\Scripts\AIEnemy.cs" />
-    <Compile Include="Assets\Scripts\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\UI\UIPanelManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\InteractableObject.cs" />
-    <Compile Include="Assets\Scripts\CharacterMovementInput.cs" />
+    <Compile Include="Assets\Scripts\Character\AIEnemy.cs" />
+    <Compile Include="Assets\Scripts\GameManagers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameManagers\GameSceneManager.cs" />
+    <Compile Include="Assets\Scripts\Character\CharDefeatHandler.cs" />
+    <Compile Include="Assets\Scripts\Character\AttackHandler.cs" />
+    <Compile Include="Assets\Scripts\Character\Character.cs" />
     <Compile Include="Assets\Scripts\MouseInput.cs" />
     <Compile Include="Assets\Scripts\PlayerInput_Actions.cs" />
-    <Compile Include="Assets\Scripts\Animate.cs" />
-    <Compile Include="Assets\Scripts\AttackInput.cs" />
+    <Compile Include="Assets\Scripts\UI\CharacterUI.cs" />
+    <Compile Include="Assets\Scripts\Character\CharacterMovementInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
